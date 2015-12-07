@@ -1,0 +1,15 @@
+var x = [1,1,2,2,5,1];
+var count = {};
+var makeHistogram = function(array){
+    for(i=0; i<x.length; i++){
+        if(!count[x[i]]){
+            count.push;
+            count[x[i]]=1;
+        }else{
+    count[x[i]]++;
+    }
+
+  }
+   return count;
+}
+makeHistogram(x);
